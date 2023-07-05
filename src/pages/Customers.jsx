@@ -10,7 +10,7 @@ const Customers = () => {
   const editing = { allowDeleting: true, allowEditing: true };
 
   return (
-    <div  className="m-2 md:m-5 mt-24 p-2 md:py-10 md:px-5 bg-white rounded-3xl ">
+    <div  className="m-2 md:m-5 mt-24 p-2 md:py-10 md:px-5 bg-white rounded-3xl min-w-[720px]">
       <Header category="Page" title="Customers" />
       <GridComponent
         dataSource={customersData}

@@ -20,7 +20,7 @@ import { Header } from "../components";
 const Orders = () => {
   const editing = { allowDeleting: true, allowEditing: true };
   return (
-    <div className="m-2 p-2 md:m-5 mt-24 md:py-10 bg-white rounded-3xl box-border">
+    <div className="m-2 p-2 md:m-5 mt-24 md:py-10 bg-white rounded-3xl box-border min-w-[720px]">
       <Header category="Page" title="Orders" />
       <div style={{ overflow: "auto" }}>
         <GridComponent
