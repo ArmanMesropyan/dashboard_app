@@ -25,7 +25,7 @@ const Sidebar = () => {
 
   return (
     <div
-      className={`${activeMenu ? "ml-3": ''}  h-screen  overflow-y-scroll  pb-10`}
+      className={`${activeMenu ? "ml-3": ''}  h-screen z-[19900000] overflow-y-scroll  pb-10`}
     >
       <>
         <div
